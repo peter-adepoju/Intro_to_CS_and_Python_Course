@@ -5,8 +5,7 @@
 ## Start Here
 
 1. **Set up your environment:** [08_ENVIRONMENT_SETUP/setup_guide.md](08_ENVIRONMENT_SETUP/setup_guide.md)
-2. **See the whole semester at a glance:** [00_SCHEDULE/semester_overview.md](00_SCHEDULE/semester_overview.md)
-3. **Begin Week 1, Day 1:** [00_SCHEDULE/week_01_schedule.md](00_SCHEDULE/week_01_schedule.md)
+2. **Begin Week 1, Day 1:** [00_SCHEDULE/week_01_schedule.md](00_SCHEDULE/week_01_schedule.md)
 
 ---
 

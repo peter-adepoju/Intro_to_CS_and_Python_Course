@@ -7,14 +7,6 @@ The goal of this course archive is to turn the MIT course **Introduction to Comp
 **Peter Oluwafemi Adepoju** \
 Email: petera@aims.ac.za
 
-## Repository Status
-
-This course is currently a work in progress.
-
-- `Week 1` has been added
-- Subsequent weeks will be uploaded as they are completed
-- The structure is designed to eventually cover the full course in a systematic, semester-style format
-
 ## Course Philosophy
 
 This course is designed to go beyond passive reading. The focus is on:

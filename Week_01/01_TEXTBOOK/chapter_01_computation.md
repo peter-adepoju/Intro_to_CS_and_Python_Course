@@ -26,26 +26,17 @@ chip can run a word processor, a game, a weather simulation, or a video call.
 
 A modern computer has two essential components we care about right now:
 
-**Memory (RAM):** A huge grid of locations, each able to hold a small amount
+- **Memory (RAM):** A huge grid of locations, each able to hold a small amount
 of information. Think of it as a very long list of numbered cubby holes.
 Every value your program uses, be it a number, a word, a result, lives in one of
 these locations.
 
-**Processor (CPU):** A chip that reads instructions from memory and executes
+- **Processor (CPU):** A chip that reads instructions from memory and executes
 them. The processor can do arithmetic, compare values, read from memory, write
 to memory, and decide which instruction to execute next. It does this billions
 of times per second.
 
-### A Simple Analogy
-
-Imagine a very precise cook following a recipe. The recipe is the program.
-The ingredients and the dishes are the data. The cook is the processor. The
-pantry and countertops are memory. The cook reads the recipe one step at a
-time, performs each action exactly as written, and produces a result.
-
-The remarkable thing: if you give the same cook (processor) a different recipe
-(program), they produce a completely different dish. The cook hasn't changed.
-Only the instructions changed.
+---
 
 ## 1.2 What Is a Program?
 
@@ -83,6 +74,8 @@ Most beginners struggle most with semantic errors — programs that run without
 crashing but produce the wrong answer. These are also called **bugs**, and
 finding and fixing them is called **debugging**.
 
+---
+
 ## 1.3 What Is Python?
 
 Python is a **programming language** — _a formal notation for writing programs_.
@@ -114,6 +107,8 @@ you can try something in the Python shell and see the result immediately.
 
 For learning, the interactive nature of Python is ideal. You get instant
 feedback.
+
+---
 
 ## 1.4 The Python REPL
 
@@ -149,11 +144,5 @@ Try these:
 256
 ```
 
-Each line: Python reads your expression, evaluates it to a value, and prints
+**Each line:** Python reads your expression, evaluates it to a value, and prints
 the value. The loop continues until you type `exit()` or press Ctrl+D.
-
-### Why This Matters
-
-The REPL is your laboratory. When you're learning, you should use it
-constantly — try an expression, see what happens, try a variation. This is
-how programmers explore. Don't just read: experiment.

@@ -1,11 +1,8 @@
 # Introduction to CS and Programming Using Python
-## A Full 14-Week Semester Course — Rebuilt for Deep, Guided Self-Study
-
-Based on MIT 6.100L, expanded into a structured, day-by-day teaching system.
 
 ---
 
-## 🚀 Start Here
+## Start Here
 
 1. **Set up your environment:** `08_ENVIRONMENT_SETUP/setup_guide.md`
 2. **See the whole semester at a glance:** `00_SCHEDULE/semester_overview.md`
@@ -49,6 +46,29 @@ CS_Python_Semester/
     └── week_01_tracker.md
 ```
 
+---
+
+## 📅 The Full 14-Week Plan
+
+| Week | Topic |
+|---|---|
+| **1** ✅ | Foundations: types, variables, strings, I/O, branching |
+| 2 | Iteration: while/for loops, range(), nested loops |
+| 3 | Functions: definitions, parameters, return values, scope |
+| 4 | Recursion: base cases, call stack, classic recursive problems |
+| 5 | Tuples and Lists: sequences, mutation, aliasing |
+| 6 | Dictionaries: keys/values, nested data, comprehensions |
+| 7 | Testing and Debugging: exceptions, assertions, strategy |
+| 8 | Midterm review + exam |
+| 9 | OOP I: classes, `__init__`, methods, `self` |
+| 10 | OOP II: inheritance, `super()`, polymorphism |
+| 11 | Algorithmic Complexity: Big-O notation |
+| 12 | Searching and Sorting: linear/binary search, sort algorithms |
+| 13 | Data and Modules: file I/O, basic data analysis |
+| 14 | Capstone project + final exam |
+
+---
+
 ## How to Use Week 1
 
 Follow the schedule in `00_SCHEDULE/week_01_schedule.md` exactly as written:
@@ -75,11 +95,3 @@ roughly 12-15 hours of genuine study time (10 hours of teaching blocks +
 Subsequent weeks will maintain this same depth and will continue to build
 directly on Week 1's foundations — nothing here will be wasted.
 
----
-
-## Acknowledgement
-
-Rebuilt from MIT OpenCourseWare 6.100L "Introduction to CS and Programming
-Using Python" (Fall 2022), used under MIT OCW's Creative Commons license,
-substantially expanded with original textbook prose, notebooks, quizzes,
-and a structured 14-week teaching schedule.

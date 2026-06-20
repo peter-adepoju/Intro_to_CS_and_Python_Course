@@ -138,4 +138,4 @@ Others may take 2.5 hours. That is normal and expected.
 
 ## Acknowledgement
 
-This repository is my own expanded teaching project, developed as an original structured course. The overall motivation and initial inspiration were drawn from MIT OpenCourseWare’s **Introduction to CS and Programming Using Python**.
+This repository is my own expanded teaching project, developed as an original structured course. The overall motivation and initial inspiration were drawn from [MIT OpenCourseWare’s **Introduction to CS and Programming Using Python**](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/).

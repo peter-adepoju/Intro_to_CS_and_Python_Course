@@ -5,7 +5,7 @@ The goal of this course archive is to turn the MIT course **Introduction to Comp
 ## Author
 
 **Peter Oluwafemi Adepoju** \
-Email: `petera@aims.ac.za`
+Email: petera@aims.ac.za
 
 ## Repository Status
 

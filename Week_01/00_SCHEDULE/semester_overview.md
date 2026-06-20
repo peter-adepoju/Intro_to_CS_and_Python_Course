@@ -1,22 +1,3 @@
-# Introduction to CS and Programming Using Python
-## 14 Weeks | 70 Teaching Days | ~2 Hours Per Day (Weekdays)
-
----
-
-## Core Principles of This Course
-
-This course treats programming as a disciplined way of thinking. Every concept is taught with three
-questions in mind:
-
-1. **What is it?** — The precise definition and behavior.
-2. **Why does it work this way?** — The reasoning behind the design.
-3. **How do I use it?** — Practical, runnable code that builds skill.
-
-You will write code every single day. You will make mistakes every single day.
-Both are essential.
-
----
-
 ## Semester Calendar at a Glance
 
 ### UNIT 1: THE LANGUAGE OF PYTHON (Weeks 1–4)
@@ -94,7 +75,7 @@ Modules, files, data, and building complete programs.
 - **Language:** Python 3.10+
 - **Editor:** Jupyter Notebook (primary) or VS Code with Pylance
 - **Terminal:** Any command line (macOS Terminal, Windows Terminal, Linux bash)
-- **Setup guide:** `08_ENVIRONMENT_SETUP/setup_guide.md`
+- **Setup guide:** [08_ENVIRONMENT_SETUP/setup_guide.md](08_ENVIRONMENT_SETUP/setup_guide.md)
 
 ---
 

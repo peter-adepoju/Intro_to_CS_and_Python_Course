@@ -1,6 +1,6 @@
-# Introduction to CS and Programming using Python
+# Introduction to Programming using Python
 
-The goal of this course archive is to turn the MIT course **Introduction to Computer Science and Programming Using Python** content into a more structured, deeper, and more practice-driven learning experience. The materials are being developed week by week (14 weeks), with each week designed to build understanding through explanation, coding practice, notebooks, assignments, quizzes, and projects.
+The goal of this repository is to present a course on **programming with Python** as a more structured, deeper, and more practice-driven learning experience. The materials are being developed week by week over **14 weeks**, with each week designed to build understanding through explanation, coding practice, notebooks, assignments, quizzes, and projects.
 
 ## Author
 
@@ -20,7 +20,7 @@ This course is designed to go beyond passive reading. The focus is on:
 
 ## What You Will Find Here
 
-The repository will eventually include:
+The repository will include:
 
 - weekly schedules
 - textbooks and reading materials
@@ -134,10 +134,8 @@ Others may take 2.5 hours. That is normal and expected.
 5. **Write comments in your code** explaining what you're doing — it forces
    understanding.
 
+---
 
 ## Acknowledgement
 
-Rebuilt from MIT OpenCourseWare 6.100L "Introduction to CS and Programming
-Using Python" (Fall 2022), used under MIT OCW's Creative Commons license,
-substantially expanded with original textbook prose, notebooks, quizzes,
-and a structured 14-week teaching schedule.
+This repository is my own expanded teaching project, developed as an original structured course. The overall motivation and initial inspiration were drawn from MIT OpenCourseWare’s **Introduction to CS and Programming Using Python**.

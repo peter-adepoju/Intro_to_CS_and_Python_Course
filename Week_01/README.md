@@ -4,9 +4,9 @@
 
 ## Start Here
 
-1. **Set up your environment:** `08_ENVIRONMENT_SETUP/setup_guide.md`
-2. **See the whole semester at a glance:** `00_SCHEDULE/semester_overview.md`
-3. **Begin Week 1, Day 1:** `00_SCHEDULE/week_01_schedule.md`
+1. **Set up your environment:** [08_ENVIRONMENT_SETUP/setup_guide.md](08_ENVIRONMENT_SETUP/setup_guide.md)
+2. **See the whole semester at a glance:** [00_SCHEDULE/semester_overview.md](00_SCHEDULE/semester_overview.md)
+3. **Begin Week 1, Day 1:** [00_SCHEDULE/week_01_schedule.md](00_SCHEDULE/week_01_schedule.md)
 
 ---
 
@@ -71,7 +71,7 @@ CS_Python_Semester/
 
 ## How to Use Week 1
 
-Follow the schedule in `00_SCHEDULE/week_01_schedule.md` exactly as written:
+Follow the schedule in [00_SCHEDULE/week_01_schedule.md](00_SCHEDULE/week_01_schedule.md) exactly as written:
 
 - **Monday–Friday:** ~2 hours each day. Read the assigned textbook chapter,
   work through the day's Jupyter notebook, do the standalone practice

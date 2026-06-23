@@ -1,4 +1,4 @@
-# Week 1 — Days 1 Textbook
+#  Days 1
 
 ---
 

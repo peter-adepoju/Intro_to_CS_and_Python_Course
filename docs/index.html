@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Introduction to Programming Using Python | Course Website</title>
+  <meta name="description" content="Interactive course website for Peter Oluwafemi Adepoju's Introduction to Programming Using Python course." />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Course homepage">
+        <span class="brand-mark">Py</span>
+        <span>Intro to Python Course</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#course-map">Course Map</a>
+        <a href="#week-one">Week 1</a>
+        <a href="#playground">Python Playground</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#resources">Resources</a>
+        <a class="button small" href="https://github.com/peter-adepoju/Intro-to-Python-Course" target="_blank" rel="noreferrer">GitHub Repo</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero section-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Semester-style • Practice-driven • Beginner-friendly</p>
+        <h1>Learn Python by reading, coding, testing, and building.</h1>
+        <p class="hero-text">
+          A structured 14-week introduction to programming using Python, designed around daily lessons,
+          Jupyter notebooks, coding drills, quizzes, assignments, projects, and progress tracking.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="#week-one">Start Week 1</a>
+          <a class="button secondary" href="#playground">Try Python in the browser</a>
+        </div>
+        <div class="hero-stats" aria-label="Course summary">
+          <div><strong>14</strong><span>Weeks</span></div>
+          <div><strong>6</strong><span>Units</span></div>
+          <div><strong>70</strong><span>Daily quizzes</span></div>
+          <div><strong>4+</strong><span>Projects</span></div>
+        </div>
+      </div>
+      <aside class="hero-card" aria-labelledby="course-philosophy-title">
+        <h2 id="course-philosophy-title">Course philosophy</h2>
+        <ul class="check-list">
+          <li>Build deep conceptual understanding before speed.</li>
+          <li>Practice every idea with real Python code.</li>
+          <li>Use repetition, quizzes, and projects to make learning stick.</li>
+          <li>Progress from syntax to data structures, testing, OOP, algorithms, and capstone work.</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="section" id="course-map">
+      <div class="section-heading">
+        <p class="eyebrow">Interactive syllabus</p>
+        <h2>Course map</h2>
+        <p>Search the syllabus, filter by unit, and mark progress. Your checkmarks are saved in this browser.</p>
+      </div>
+      <div class="toolbar" role="search">
+        <label class="visually-hidden" for="course-search">Search weeks</label>
+        <input id="course-search" type="search" placeholder="Search: loops, recursion, sorting..." />
+        <label class="visually-hidden" for="unit-filter">Filter by unit</label>
+        <select id="unit-filter">
+          <option value="all">All units</option>
+          <option value="1">Unit 1: The Language of Python</option>
+          <option value="2">Unit 2: Compound Data</option>
+          <option value="3">Unit 3: Program Quality</option>
+          <option value="midterm">Midterm</option>
+          <option value="4">Unit 4: OOP</option>
+          <option value="5">Unit 5: Algorithms</option>
+          <option value="6">Unit 6: Real-world Programs</option>
+        </select>
+      </div>
+      <div class="progress-strip" aria-live="polite">
+        <div class="progress-label"><span id="completed-count">0</span>/14 weeks checked</div>
+        <div class="progress-track"><span id="progress-bar"></span></div>
+      </div>
+      <div id="course-cards" class="card-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="section alt" id="week-one">
+      <div class="section-heading">
+        <p class="eyebrow">Available now</p>
+        <h2>Week 1: Foundations</h2>
+        <p>Types, variables, expressions, strings, input/output, f-strings, and branching.</p>
+      </div>
+      <div class="week-layout">
+        <article class="panel">
+          <h3>Recommended learning path</h3>
+          <ol class="steps">
+            <li><strong>Set up Python.</strong> Install Python, Jupyter Notebook, or VS Code.</li>
+            <li><strong>Read the textbook material.</strong> Work through examples slowly.</li>
+            <li><strong>Open each notebook.</strong> Type and modify every example.</li>
+            <li><strong>Complete the practice scripts.</strong> Build fluency with repetition.</li>
+            <li><strong>Take the quiz.</strong> Use mistakes as a review guide.</li>
+            <li><strong>Finish the weekend assignment.</strong> Consolidate the week before moving on.</li>
+          </ol>
+        </article>
+        <article class="panel compact-links">
+          <h3>Week 1 quick links</h3>
+          <a href="https://github.com/peter-adepoju/Intro-to-Python-Course/tree/main/Week_01/08_ENVIRONMENT_SETUP" target="_blank" rel="noreferrer">Environment setup</a>
+          <a href="https://github.com/peter-adepoju/Intro-to-Python-Course/tree/main/Week_01/00_SCHEDULE" target="_blank" rel="noreferrer">Weekly schedule</a>
+          <a href="https://github.com/peter-adepoju/Intro-to-Python-Course/tree/main/Week_01/01_TEXTBOOK" target="_blank" rel="noreferrer">Textbook chapters</a>
+          <a href="https://github.com/peter-adepoju/Intro-to-Python-Course/tree/main/Week_01/02_NOTEBOOKS/week_01" target="_blank" rel="noreferrer">Jupyter notebooks</a>
+          <a href="https://github.com/peter-adepoju/Intro-to-Python-Course/tree/main/Week_01/03_CODING_PRACTICE" target="_blank" rel="noreferrer">Coding practice</a>
+          <a href="https://github.com/peter-adepoju/Intro-to-Python-Course/tree/main/Week_01/04_ASSIGNMENTS" target="_blank" rel="noreferrer">Assignments and quizzes</a>
+          <a href="https://github.com/peter-adepoju/Intro-to-Python-Course/tree/main/Week_01/09_PROGRESS_TRACKER" target="_blank" rel="noreferrer">Progress tracker</a>
+        </article>
+      </div>
+      <div class="notebook-row" aria-label="Open Week 1 notebooks in Google Colab">
+        <a class="notebook" href="https://colab.research.google.com/github/peter-adepoju/Intro-to-Python-Course/blob/main/Week_01/02_NOTEBOOKS/week_01/day01_types_variables.ipynb" target="_blank" rel="noreferrer">Day 1 notebook</a>
+        <a class="notebook" href="https://colab.research.google.com/github/peter-adepoju/Intro-to-Python-Course/blob/main/Week_01/02_NOTEBOOKS/week_01/day02_variables_expressions.ipynb" target="_blank" rel="noreferrer">Day 2 notebook</a>
+        <a class="notebook" href="https://colab.research.google.com/github/peter-adepoju/Intro-to-Python-Course/blob/main/Week_01/02_NOTEBOOKS/week_01/day03_strings.ipynb" target="_blank" rel="noreferrer">Day 3 notebook</a>
+        <a class="notebook" href="https://colab.research.google.com/github/peter-adepoju/Intro-to-Python-Course/blob/main/Week_01/02_NOTEBOOKS/week_01/day04_input_output.ipynb" target="_blank" rel="noreferrer">Day 4 notebook</a>
+        <a class="notebook" href="https://colab.research.google.com/github/peter-adepoju/Intro-to-Python-Course/blob/main/Week_01/02_NOTEBOOKS/week_01/day05_branching.ipynb" target="_blank" rel="noreferrer">Day 5 notebook</a>
+      </div>
+    </section>
+
+    <section class="section" id="playground">
+      <div class="section-heading">
+        <p class="eyebrow">Interactive coding</p>
+        <h2>Python playground</h2>
+        <p>Run small Python examples directly in the browser. This uses Pyodide, so no backend server is required.</p>
+      </div>
+      <div class="playground-layout">
+        <div class="editor-panel">
+          <div class="editor-toolbar">
+            <button id="load-python" class="button small">Load Python</button>
+            <button id="run-code" class="button small secondary" disabled>Run code</button>
+            <button id="reset-code" class="button small ghost">Reset</button>
+            <span id="py-status" role="status">Python not loaded yet.</span>
+          </div>
+          <label class="visually-hidden" for="code-editor">Python code editor</label>
+          <textarea id="code-editor" spellcheck="false">name = "Peter"
+age = 20
+print(f"Hello, {name}! Next year you will be {age + 1}.")
+
+score = 72
+if score >= 70:
+    print("Excellent work")
+else:
+    print("Keep practicing")</textarea>
+        </div>
+        <div class="output-panel" aria-live="polite">
+          <h3>Output</h3>
+          <pre id="output">Click “Load Python”, then “Run code”.</pre>
+          <p class="hint">Tip: Try changing the variables, adding a loop, or writing a small function.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="quiz">
+      <div class="section-heading">
+        <p class="eyebrow">Active recall</p>
+        <h2>Mini quiz: Python foundations</h2>
+        <p>Answer the questions and get instant feedback. This is a sample of how the course site can support daily quizzes.</p>
+      </div>
+      <div id="quiz-box" class="quiz-box"></div>
+      <div class="quiz-actions">
+        <button id="submit-quiz" class="button">Check answers</button>
+        <button id="reset-quiz" class="button secondary">Reset quiz</button>
+        <span id="quiz-result" role="status"></span>
+      </div>
+    </section>
+
+    <section class="section" id="student-notes">
+      <div class="section-heading">
+        <p class="eyebrow">Study support</p>
+        <h2>Personal notes</h2>
+        <p>Use this space to write what you learned today. Notes are saved only in this browser.</p>
+      </div>
+      <label class="visually-hidden" for="notes-area">Course notes</label>
+      <textarea id="notes-area" class="notes" placeholder="Today I learned..."></textarea>
+      <div class="note-actions">
+        <button id="clear-notes" class="button small secondary">Clear notes</button>
+        <span id="notes-status" role="status"></span>
+      </div>
+    </section>
+
+    <section class="section alt" id="resources">
+      <div class="section-heading">
+        <p class="eyebrow">Course resources</p>
+        <h2>Repository and learning resources</h2>
+      </div>
+      <div class="resource-grid">
+        <a class="resource-card" href="https://github.com/peter-adepoju/Intro-to-Python-Course" target="_blank" rel="noreferrer">
+          <strong>Main repository</strong>
+          <span>Course archive with weekly folders, notebooks, assignments, quizzes, and projects.</span>
+        </a>
+        <a class="resource-card" href="https://github.com/peter-adepoju/Intro-to-Python-Course/blob/main/README.md" target="_blank" rel="noreferrer">
+          <strong>README</strong>
+          <span>Course philosophy, semester calendar, tools, assessment summary, and learning advice.</span>
+        </a>
+        <a class="resource-card" href="https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/" target="_blank" rel="noreferrer">
+          <strong>MIT OCW inspiration</strong>
+          <span>External reference acknowledged by the course repository.</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Created for <strong>Introduction to Programming Using Python</strong> by Peter Oluwafemi Adepoju.</p>
+    <p class="muted">This website is a static GitHub Pages front-end for the public course repository.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

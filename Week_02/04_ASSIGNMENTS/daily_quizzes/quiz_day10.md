@@ -1,4 +1,4 @@
-﻿# ðŸ§  Quiz â€” Day 10
+﻿# Quiz - Day 10
 ## Loop Patterns, `break`, `continue`, and Flags
 
 ---
@@ -129,8 +129,3 @@ A) Every enclosing loop at once
 B) Only the nearest (innermost) enclosing loop
 C) Only the outermost loop
 D) Nothing â€” `break` doesn't work in nested loops
-
----
----
-
----

@@ -1,4 +1,4 @@
-# 🧠 Quiz — Day 2
+# Quiz — Day 2
 ## Variables, Bindings, and Expressions
 
 ---
@@ -127,23 +127,4 @@ A) True — order doesn't matter
 B) False — `5 = x` is a SyntaxError because you cannot assign to a literal value
 
 ---
----
 
-## 📋 Answer Key — Day 2
-
-| Q | Answer | Explanation |
-|---|---|---|
-| 1 | A — 15 | `y` was bound to `x + 5 = 15` while `x` was still 10. Reassigning `x` afterward does not retroactively change `y`. |
-| 2 | C — 7 | `a=3` → `a=6` (×2) → `a=7` (+1) |
-| 3 | C — `total_score` | A starts with a digit (illegal), B has a hyphen (illegal), D is a reserved keyword |
-| 4 | C — x=6, y=5 | `y` was bound to 5 (x's value at that moment); reassigning x afterward doesn't change y |
-| 5 | B — both become 1 | `y = x` makes y=1; then `x = y` makes x=1. The original y=2 was overwritten and lost before it could be used. |
-| 6 | B — 14 | n=10 → n=7 (n-=3) → n=14 (n*=2) |
-| 7 | C — `3 + 4` | This evaluates to the value 7. A, B, D are statements (they perform actions, B has a side effect of printing but produces no usable value itself) |
-| 8 | C — `active_users` | Python convention is snake_case: lowercase words joined by underscores |
-| 9 | B — 30 | a=4, b=6, a=18, b=18-6=12, result=18+12=30 |
-| 10 | B — False | The left-hand side of `=` must be a valid name (a "target"), not a literal value like `5` |
-
----
-
-*Next: open `02_NOTEBOOKS/week_01/day03_strings.ipynb`*

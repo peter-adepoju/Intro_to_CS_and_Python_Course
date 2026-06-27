@@ -15,7 +15,6 @@ This is the fifth week of a 14-week course. Week 5 introduces compound sequence 
 
 ~~~text
 CS_Python_Semester/
-|-- MANIFEST.md                          <- Full course index
 |-- README.md                            <- This file
 |-- 00_SCHEDULE/
 |   |-- __init__.py
@@ -46,13 +45,6 @@ CS_Python_Semester/
 |   |   |-- quiz_day24.md
 |   |   |-- quiz_day25.md
 |   |   |-- quiz_solutions.md
-|   |-- INSTRUCTOR_ANSWER_KEYS/          <- Instructor-only answer files
-|   |   |-- day21_practice_solutions.py
-|   |   |-- day22_practice_solutions.py
-|   |   |-- day23_practice_solutions.py
-|   |   |-- day24_practice_solutions.py
-|   |   |-- day25_practice_solutions.py
-|   |   |-- weekend_assignment_05_solutions.py
 |   '-- weekend_assignment_05.md
 |-- 05_MINI_PROJECTS/                    <- No mini-project this week. Weekend work consists of the Week 5 weekend assignment.
 |   |-- README.md
@@ -68,20 +60,20 @@ CS_Python_Semester/
 
 ---
 
-## The Full 14-Week Plan
+## 📅 The Full 14-Week Plan
 
 | Week | Topic |
 |---|---|
-| **1** | Foundations: types, variables, strings, I/O, branching |
-| **2** | Iteration: while/for loops, range(), nested loops, approximation |
-| **3** | Functions: parameters, return values, scope, specs, decomposition + Mini-Project 1 |
-| **4** | Recursion: base cases, call stack, classic recursive problems |
-| **5** | Tuples and Lists: sequences, mutation, aliasing |
+| **1** ✅ | Foundations: types, variables, strings, I/O, branching |
+| **2** ✅ | Iteration: while/for loops, range(), nested loops |
+| **3** ✅ | Functions: definitions, parameters, return values, scope |
+| **4** ✅ | Recursion: base cases, call stack, classic recursive problems |
+| **5** ✅| Tuples and Lists: sequences, mutation, aliasing |
 | 6 | Dictionaries: keys/values, nested data, comprehensions |
 | 7 | Testing and Debugging: exceptions, assertions, strategy |
 | 8 | Midterm review + exam |
-| 9 | OOP I: classes, __init__, methods, self |
-| 10 | OOP II: inheritance, super(), polymorphism |
+| 9 | OOP I: classes, `__init__`, methods, `self` |
+| 10 | OOP II: inheritance, `super()`, polymorphism |
 | 11 | Algorithmic Complexity: Big-O notation |
 | 12 | Searching and Sorting: linear/binary search, sort algorithms |
 | 13 | Data and Modules: file I/O, basic data analysis |

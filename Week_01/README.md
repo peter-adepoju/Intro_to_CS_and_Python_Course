@@ -23,7 +23,7 @@ CS_Python_Semester/
 ├── 01_TEXTBOOK/week_01/
 │   ├── chapter_01_02_types_variables.md
 │   └── chapter_03_04_05_strings_io_branching.md
-├── 02_NOTEBOOKS/week_01/
+├── 02_NOTEBOOKS/
 │   ├── day01_types_variables.ipynb
 │   ├── day02_variables_expressions.ipynb
 │   ├── day03_strings.ipynb

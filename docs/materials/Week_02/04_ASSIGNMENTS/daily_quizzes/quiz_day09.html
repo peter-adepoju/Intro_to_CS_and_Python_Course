@@ -1,0 +1,108 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz - Day 9 | Intro to Python Materials</title>
+  <meta name="description" content="Readable course material page for Introduction to Programming Using Python." />
+  <link rel="stylesheet" href="../../../../assets/styles.css" />
+</head>
+<body class="reader-body">
+  <a class="skip-link" href="#reader-main">Skip to material content</a>
+  <header class="reader-topbar">
+    <a class="reader-brand" href="../../../../index.html">
+      <span class="brand-mark">Py</span>
+      <span>
+        <strong>Intro to Python</strong>
+        <small>Materials reader</small>
+      </span>
+    </a>
+  </header>
+  <main class="reader-shell materials-shell" id="reader-main">
+    <aside class="reader-sidebar" aria-label="Materials navigation">
+      <div class="reader-sidebar-inner">
+        <p class="eyebrow">Materials</p>
+        <h2>Week 2</h2>
+        <nav>
+          <a href="../../../index.html">All materials</a>
+          <a href="../../index.html">Week 2 materials</a>
+          <a href="../../../../index.html">Course dashboard</a>
+        </nav>
+      </div>
+    </aside>
+    <article class="reader-article">
+      <nav class="reader-breadcrumb" aria-label="Breadcrumb">
+        <a href="../../../../index.html">Course dashboard</a>
+        <span>/</span>
+        <a href="../../../index.html">Materials</a>
+        <span>/</span>
+        <a href="../../index.html">Week 2</a>
+      </nav>
+      <header class="reader-hero">
+        <p class="eyebrow">Quiz</p>
+        <h1>Quiz - Day 9</h1>
+        <p>Q1. In the guess-and-check square root algorithm, what does the loop</p>
+        <div class="reader-actions">
+          <a class="button small secondary" href="https://github.com/peter-adepoju/Intro-to-Python-Course/blob/main/Week_02/04_ASSIGNMENTS/daily_quizzes/quiz_day09.md" target="_blank" rel="noreferrer">View Markdown source</a>
+          <a class="button small ghost" href="../../index.html">Week 2 materials</a>
+        </div>
+      </header>
+      <aside class="page-toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <ol><li><a href="#approximation-and-brute-force-search">Approximation and Brute-Force Search</a></li></ol>
+      </aside>
+      <div class="textbook-content material-content">
+        <h1 id="quiz-day-9">Quiz - Day 9<a class="heading-anchor" href="#quiz-day-9" aria-label="Link to this section">#</a></h1>
+<h2 id="approximation-and-brute-force-search">Approximation and Brute-Force Search<a class="heading-anchor" href="#approximation-and-brute-force-search" aria-label="Link to this section">#</a></h2>
+<hr />
+<p><strong>Q1.</strong> In the guess-and-check square root algorithm, what does the loop condition <code>guess ** 2 &lt; x</code> actually test?</p>
+<p>A) Whether <code>guess</code> is the square root of <code>x</code> B) Whether <code>guess</code> squared has NOT YET reached <code>x</code> &#226;€” i.e., we should keep incrementing C) Whether <code>x</code> is a perfect square D) Whether <code>guess</code> is negative</p>
+<hr />
+<p><strong>Q2.</strong> After the square-root loop finishes for <code>x = 16</code>, what is the value of <code>guess</code>?</p>
+<p>A) 3 B) 4 C) 5 D) 16</p>
+<hr />
+<p><strong>Q3.</strong> Why does the cube root algorithm work correctly for negative numbers, unlike the simple square root algorithm?</p>
+<p>A) It doesn&#39;t &#226;€” negative cube roots are impossible B) It searches using <code>abs(cube)</code>, then restores the negative sign to the answer at the end C) Python automatically handles negative exponents D) Cube roots are always positive</p>
+<hr />
+<p><strong>Q4.</strong> What is a &quot;loop invariant&quot;?</p>
+<p>A) A variable that never changes inside a loop B) A fact that remains true every time the loop&#39;s condition is checked, used to reason about why the loop is correct C) An error that occurs inside loops D) Another name for an infinite loop</p>
+<hr />
+<p><strong>Q5.</strong> In the ticket-selling exhaustive enumeration problem, why is the &quot;smarter&quot; single-loop version better than the triple-nested loop version?</p>
+<p>A) It gives a different (more correct) answer B) It computes the dependent unknowns (<code>ben</code>, <code>cindy</code>) directly from <code>alyssa</code> instead of searching for them, requiring far fewer iterations C) It uses recursion instead of loops D) There is no real difference</p>
+<hr />
+<p><strong>Q6.</strong> What does this print?</p>
+<pre><code class="language-python">x = 0
+for i in range(8):
+    x += 0.125
+print(x == 1.0)</code></pre>
+<p>A) True B) False C) Error D) None</p>
+<hr />
+<p><strong>Q7.</strong> What does this print?</p>
+<pre><code class="language-python">x = 0
+for i in range(3):
+    x += 0.1
+print(x == 0.3)</code></pre>
+<p>A) True B) False C) Error D) 0.3</p>
+<hr />
+<p><strong>Q8.</strong> Based on Q6 and Q7, what&#39;s the key difference between <code>0.125</code> and <code>0.1</code> that explains their different behaviors?</p>
+<p>A) <code>0.125</code> is larger than <code>0.1</code> B) <code>0.125</code> is exactly representable in binary (it&#39;s 1/8, a power-of-2 fraction); <code>0.1</code> is not, so tiny rounding errors accumulate C) There is no real difference &#226;€” both should behave the same D) <code>0.1</code> is a string, <code>0.125</code> is a float</p>
+<hr />
+<p><strong>Q9.</strong> What is the correct way to compare two floating-point numbers that resulted from arithmetic, to check if they&#39;re &quot;close enough&quot;?</p>
+<p>A) <code>a == b</code> B) <code>a is b</code> C) <code>abs(a - b) &lt; tolerance</code> (e.g., <code>0.0001</code>) D) <code>round(a) == round(b)</code></p>
+<hr />
+<p><strong>Q10.</strong> Trace the decimal-to-binary algorithm for <code>num = 13</code>. What is the final value of <code>result</code>?</p>
+<pre><code class="language-python">num = 13
+result = &#39;&#39;
+while num &gt; 0:
+    result = str(num % 2) + result
+    num = num // 2</code></pre>
+<p>A) <code>&quot;13&quot;</code> B) <code>&quot;1101&quot;</code> C) <code>&quot;1011&quot;</code> D) <code>&quot;110&quot;</code></p>
+      </div>
+    </article>
+  </main>
+  <footer class="reader-footer">
+    <p>Introduction to Programming Using Python</p>
+    <a href="https://github.com/peter-adepoju/Intro-to-Python-Course" target="_blank" rel="noreferrer">Source repository</a>
+  </footer>
+</body>
+</html>

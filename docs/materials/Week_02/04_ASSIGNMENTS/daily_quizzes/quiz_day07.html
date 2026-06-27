@@ -1,0 +1,109 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz - Day 7 | Intro to Python Materials</title>
+  <meta name="description" content="Readable course material page for Introduction to Programming Using Python." />
+  <link rel="stylesheet" href="../../../../assets/styles.css" />
+</head>
+<body class="reader-body">
+  <a class="skip-link" href="#reader-main">Skip to material content</a>
+  <header class="reader-topbar">
+    <a class="reader-brand" href="../../../../index.html">
+      <span class="brand-mark">Py</span>
+      <span>
+        <strong>Intro to Python</strong>
+        <small>Materials reader</small>
+      </span>
+    </a>
+  </header>
+  <main class="reader-shell materials-shell" id="reader-main">
+    <aside class="reader-sidebar" aria-label="Materials navigation">
+      <div class="reader-sidebar-inner">
+        <p class="eyebrow">Materials</p>
+        <h2>Week 2</h2>
+        <nav>
+          <a href="../../../index.html">All materials</a>
+          <a href="../../index.html">Week 2 materials</a>
+          <a href="../../../../index.html">Course dashboard</a>
+        </nav>
+      </div>
+    </aside>
+    <article class="reader-article">
+      <nav class="reader-breadcrumb" aria-label="Breadcrumb">
+        <a href="../../../../index.html">Course dashboard</a>
+        <span>/</span>
+        <a href="../../../index.html">Materials</a>
+        <span>/</span>
+        <a href="../../index.html">Week 2</a>
+      </nav>
+      <header class="reader-hero">
+        <p class="eyebrow">Quiz</p>
+        <h1>Quiz - Day 7</h1>
+        <p>Q1. What values does range(5) produce when iterated?</p>
+        <div class="reader-actions">
+          <a class="button small secondary" href="https://github.com/peter-adepoju/Intro-to-Python-Course/blob/main/Week_02/04_ASSIGNMENTS/daily_quizzes/quiz_day07.md" target="_blank" rel="noreferrer">View Markdown source</a>
+          <a class="button small ghost" href="../../index.html">Week 2 materials</a>
+        </div>
+      </header>
+      <aside class="page-toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <ol><li><a href="#for-loops-and-range">for Loops and range()</a></li></ol>
+      </aside>
+      <div class="textbook-content material-content">
+        <h1 id="quiz-day-7">Quiz - Day 7<a class="heading-anchor" href="#quiz-day-7" aria-label="Link to this section">#</a></h1>
+<h2 id="for-loops-and-range"><code>for</code> Loops and <code>range()</code><a class="heading-anchor" href="#for-loops-and-range" aria-label="Link to this section">#</a></h2>
+<hr />
+<p><strong>Q1.</strong> What values does <code>range(5)</code> produce when iterated?</p>
+<p>A) <code>1, 2, 3, 4, 5</code> B) <code>0, 1, 2, 3, 4</code> C) <code>0, 1, 2, 3, 4, 5</code> D) <code>1, 2, 3, 4</code></p>
+<hr />
+<p><strong>Q2.</strong> What values does <code>range(3, 8)</code> produce?</p>
+<p>A) <code>3, 4, 5, 6, 7</code> B) <code>3, 4, 5, 6, 7, 8</code> C) <code>4, 5, 6, 7, 8</code> D) <code>3, 4, 5, 6</code></p>
+<hr />
+<p><strong>Q3.</strong> What values does <code>range(10, 0, -2)</code> produce?</p>
+<p>A) <code>10, 8, 6, 4, 2, 0</code> B) <code>10, 8, 6, 4, 2</code> C) <code>0, 2, 4, 6, 8, 10</code> D) Error &#226;€” can&#39;t use a negative step</p>
+<hr />
+<p><strong>Q4.</strong> What does <code>range(5, 5)</code> produce?</p>
+<p>A) Just the value <code>5</code> B) An empty sequence (the loop body never runs) C) An error D) <code>5, 4, 3, 2, 1</code></p>
+<hr />
+<p><strong>Q5.</strong> For a SUM accumulator, what value should you initialize it to? For a PRODUCT accumulator?</p>
+<p>A) Both should start at 0 B) Both should start at 1 C) Sum starts at 0, product starts at 1 D) Sum starts at 1, product starts at 0</p>
+<hr />
+<p><strong>Q6.</strong> What does this print?</p>
+<pre><code class="language-python">total = 0
+for i in range(1, 5):
+    total += i
+print(total)</code></pre>
+<p>A) 10 B) 15 C) 4 D) 9</p>
+<hr />
+<p><strong>Q7.</strong> What is the bug in this code, if the goal was to print 1 through 10 inclusive?</p>
+<pre><code class="language-python">for i in range(10):
+    print(i)</code></pre>
+<p>A) No bug &#226;€” it works correctly B) Should be <code>range(1, 10)</code> &#226;€” still misses 10 C) Should be <code>range(1, 11)</code> D) Should be <code>range(0, 10)</code></p>
+<hr />
+<p><strong>Q8.</strong> Given <code>s = &quot;cat&quot;</code>, what does this print?</p>
+<pre><code class="language-python">for i in range(len(s)):
+    print(i, s[i])</code></pre>
+<p>A) <code>0 cat</code> B) <code>c a t</code> C) <code>0 c</code> then <code>1 a</code> then <code>2 t</code> D) <code>1 c</code> then <code>2 a</code> then <code>3 t</code></p>
+<hr />
+<p><strong>Q9.</strong> What happens when you reassign the loop variable inside a <code>for</code> loop&#39;s body?</p>
+<pre><code class="language-python">for i in range(5):
+    print(i)
+    i = 100</code></pre>
+<p>A) The loop immediately stops B) The loop skips to i=100 next C) It has no effect &#226;€” the loop still proceeds through range()&#39;s pre-determined sequence D) It raises an error</p>
+<hr />
+<p><strong>Q10.</strong> When should you prefer a <code>for</code> loop over a <code>while</code> loop?</p>
+<p>A) When you don&#39;t know in advance how many times you&#39;ll repeat B) When you know the exact number of repetitions, or are processing every item in a sequence C) <code>for</code> and <code>while</code> are never interchangeable D) Only when working with strings</p>
+<hr />
+<hr />
+<hr />
+      </div>
+    </article>
+  </main>
+  <footer class="reader-footer">
+    <p>Introduction to Programming Using Python</p>
+    <a href="https://github.com/peter-adepoju/Intro-to-Python-Course" target="_blank" rel="noreferrer">Source repository</a>
+  </footer>
+</body>
+</html>

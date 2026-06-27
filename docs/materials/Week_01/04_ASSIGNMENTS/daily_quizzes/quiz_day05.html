@@ -1,0 +1,132 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz — Day 5 | Intro to Python Materials</title>
+  <meta name="description" content="Readable course material page for Introduction to Programming Using Python." />
+  <link rel="stylesheet" href="../../../../assets/styles.css" />
+</head>
+<body class="reader-body">
+  <a class="skip-link" href="#reader-main">Skip to material content</a>
+  <header class="reader-topbar">
+    <a class="reader-brand" href="../../../../index.html">
+      <span class="brand-mark">Py</span>
+      <span>
+        <strong>Intro to Python</strong>
+        <small>Materials reader</small>
+      </span>
+    </a>
+  </header>
+  <main class="reader-shell materials-shell" id="reader-main">
+    <aside class="reader-sidebar" aria-label="Materials navigation">
+      <div class="reader-sidebar-inner">
+        <p class="eyebrow">Materials</p>
+        <h2>Week 1</h2>
+        <nav>
+          <a href="../../../index.html">All materials</a>
+          <a href="../../index.html">Week 1 materials</a>
+          <a href="../../../../index.html">Course dashboard</a>
+        </nav>
+      </div>
+    </aside>
+    <article class="reader-article">
+      <nav class="reader-breadcrumb" aria-label="Breadcrumb">
+        <a href="../../../../index.html">Course dashboard</a>
+        <span>/</span>
+        <a href="../../../index.html">Materials</a>
+        <span>/</span>
+        <a href="../../index.html">Week 1</a>
+      </nav>
+      <header class="reader-hero">
+        <p class="eyebrow">Quiz</p>
+        <h1>Quiz — Day 5</h1>
+        <p>Q1. What does this code print?</p>
+        <div class="reader-actions">
+          <a class="button small secondary" href="https://github.com/peter-adepoju/Intro-to-Python-Course/blob/main/Week_01/04_ASSIGNMENTS/daily_quizzes/quiz_day05.md" target="_blank" rel="noreferrer">View Markdown source</a>
+          <a class="button small ghost" href="../../index.html">Week 1 materials</a>
+        </div>
+      </header>
+      <aside class="page-toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <ol><li><a href="#branching-and-conditionals">Branching and Conditionals</a></li></ol>
+      </aside>
+      <div class="textbook-content material-content">
+        <h1 id="quiz-day-5">Quiz — Day 5<a class="heading-anchor" href="#quiz-day-5" aria-label="Link to this section">#</a></h1>
+<h2 id="branching-and-conditionals">Branching and Conditionals<a class="heading-anchor" href="#branching-and-conditionals" aria-label="Link to this section">#</a></h2>
+<hr />
+<p><strong>Q1.</strong> What does this code print?</p>
+<pre><code class="language-python">x = 7
+if x &gt; 5:
+    print(&quot;big&quot;)
+print(&quot;done&quot;)</code></pre>
+<p>A) Only &quot;done&quot; B) Only &quot;big&quot; C) &quot;big&quot; then &quot;done&quot; D) Neither</p>
+<hr />
+<p><strong>Q2.</strong> What does <code>True and False</code> evaluate to?</p>
+<p>A) True B) False C) None D) Error</p>
+<hr />
+<p><strong>Q3.</strong> Which of the following is a correctly written <code>if</code> statement in Python?</p>
+<p>A) <code>if (x == 5) then:</code> B) <code>if x == 5:</code> C) <code>if x == 5</code> D) <code>If x == 5:</code></p>
+<hr />
+<p><strong>Q4.</strong> What does this code print when <code>x = 10</code>?</p>
+<pre><code class="language-python">if x &gt; 0:
+    print(&quot;positive&quot;)
+elif x &gt; 5:
+    print(&quot;more than 5&quot;)
+else:
+    print(&quot;non-positive&quot;)</code></pre>
+<p>A) &quot;positive&quot; only B) &quot;more than 5&quot; only C) Both &quot;positive&quot; and &quot;more than 5&quot; D) &quot;non-positive&quot;</p>
+<hr />
+<p><strong>Q5.</strong> What does <code>not True or False</code> evaluate to? (Remember: <code>not</code> binds tighter than <code>or</code>.)</p>
+<p>A) True B) False C) None D) Error</p>
+<hr />
+<p><strong>Q6.</strong> What is the bug in this code?</p>
+<pre><code class="language-python">x = 5
+if x = 5:
+    print(&quot;five&quot;)</code></pre>
+<p>A) The condition should be <code>x == 5</code> B) The indentation is wrong C) <code>print</code> needs different parentheses D) There is no bug</p>
+<hr />
+<p><strong>Q7.</strong> For which value of <code>y</code> will the <code>else</code> branch run?</p>
+<pre><code class="language-python">x = 10
+if x &lt; y:
+    print(&quot;x is smaller&quot;)
+elif x &gt; y:
+    print(&quot;x is larger&quot;)
+else:
+    print(&quot;equal&quot;)</code></pre>
+<p>A) <code>y = 5</code> B) <code>y = 10</code> C) <code>y = 15</code> D) No value of y makes else run</p>
+<hr />
+<p><strong>Q8.</strong> What does this code print when <code>score = 75</code>?</p>
+<pre><code class="language-python">if score &gt;= 90:
+    print(&quot;A&quot;)
+if score &gt;= 80:
+    print(&quot;B&quot;)
+if score &gt;= 70:
+    print(&quot;C&quot;)
+if score &gt;= 60:
+    print(&quot;D&quot;)</code></pre>
+<p>A) &quot;C&quot; only B) &quot;C&quot; and &quot;D&quot; C) &quot;A&quot;, &quot;B&quot;, &quot;C&quot;, and &quot;D&quot; D) Nothing</p>
+<hr />
+<p><strong>Q9.</strong> What is the correct expression for &quot;x is between 0 and 100, inclusive&quot;?</p>
+<p>A) <code>0 &lt; x &lt; 100</code> B) <code>x &gt;= 0 and x &lt;= 100</code> C) <code>0 &lt;= x &lt;= 100</code> D) Both B and C are correct</p>
+<hr />
+<p><strong>Q10.</strong> Trace this code with <code>x = 3</code>. What does it print?</p>
+<pre><code class="language-python">result = &quot;&quot;
+if x % 2 == 0:
+    result += &quot;even&quot;
+else:
+    result += &quot;odd&quot;
+if x &gt; 2:
+    result += &quot;_big&quot;
+print(result)</code></pre>
+<p>A) &quot;odd&quot; B) &quot;even_big&quot; C) &quot;odd_big&quot; D) &quot;oddeven_big&quot;</p>
+<hr />
+      </div>
+    </article>
+  </main>
+  <footer class="reader-footer">
+    <p>Introduction to Programming Using Python</p>
+    <a href="https://github.com/peter-adepoju/Intro-to-Python-Course" target="_blank" rel="noreferrer">Source repository</a>
+  </footer>
+</body>
+</html>

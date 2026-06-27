@@ -1,0 +1,136 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz - Day 6 | Intro to Python Materials</title>
+  <meta name="description" content="Readable course material page for Introduction to Programming Using Python." />
+  <link rel="stylesheet" href="../../../../assets/styles.css" />
+</head>
+<body class="reader-body">
+  <a class="skip-link" href="#reader-main">Skip to material content</a>
+  <header class="reader-topbar">
+    <a class="reader-brand" href="../../../../index.html">
+      <span class="brand-mark">Py</span>
+      <span>
+        <strong>Intro to Python</strong>
+        <small>Materials reader</small>
+      </span>
+    </a>
+  </header>
+  <main class="reader-shell materials-shell" id="reader-main">
+    <aside class="reader-sidebar" aria-label="Materials navigation">
+      <div class="reader-sidebar-inner">
+        <p class="eyebrow">Materials</p>
+        <h2>Week 2</h2>
+        <nav>
+          <a href="../../../index.html">All materials</a>
+          <a href="../../index.html">Week 2 materials</a>
+          <a href="../../../../index.html">Course dashboard</a>
+        </nav>
+      </div>
+    </aside>
+    <article class="reader-article">
+      <nav class="reader-breadcrumb" aria-label="Breadcrumb">
+        <a href="../../../../index.html">Course dashboard</a>
+        <span>/</span>
+        <a href="../../../index.html">Materials</a>
+        <span>/</span>
+        <a href="../../index.html">Week 2</a>
+      </nav>
+      <header class="reader-hero">
+        <p class="eyebrow">Quiz</p>
+        <h1>Quiz - Day 6</h1>
+        <p>Q1. What does this code print?</p>
+        <div class="reader-actions">
+          <a class="button small secondary" href="https://github.com/peter-adepoju/Intro-to-Python-Course/blob/main/Week_02/04_ASSIGNMENTS/daily_quizzes/quiz_day06.md" target="_blank" rel="noreferrer">View Markdown source</a>
+          <a class="button small ghost" href="../../index.html">Week 2 materials</a>
+        </div>
+      </header>
+      <aside class="page-toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <ol><li><a href="#while-loops-indefinite-iteration">while Loops &#226;€” Indefinite Iteration</a></li></ol>
+      </aside>
+      <div class="textbook-content material-content">
+        <h1 id="quiz-day-6">Quiz - Day 6<a class="heading-anchor" href="#quiz-day-6" aria-label="Link to this section">#</a></h1>
+<h2 id="while-loops-indefinite-iteration"><code>while</code> Loops &#226;€” Indefinite Iteration<a class="heading-anchor" href="#while-loops-indefinite-iteration" aria-label="Link to this section">#</a></h2>
+<hr />
+<p><strong>Q1.</strong> What does this code print?</p>
+<pre><code class="language-python">n = 3
+while n &gt; 0:
+    print(n)
+    n -= 1</code></pre>
+<p>A) <code>3 2 1</code> B) <code>3 2 1 0</code> C) <code>2 1 0</code> D) Infinite loop</p>
+<hr />
+<p><strong>Q2.</strong> What is wrong with this code?</p>
+<pre><code class="language-python">count = 0
+while count &lt; 5:
+    print(count)</code></pre>
+<p>A) Nothing &#226;€” it works correctly B) It&#39;s an infinite loop &#226;€” <code>count</code> is never updated C) <code>count</code> should start at 1 D) The condition should be <code>&lt;=</code></p>
+<hr />
+<p><strong>Q3.</strong> How many times does this loop body execute?</p>
+<pre><code class="language-python">x = 1
+while x &lt; 50:
+    x = x * 2</code></pre>
+<p>A) 5 B) 6 C) 7 D) 50</p>
+<hr />
+<p><strong>Q4.</strong> In a sentinel-controlled loop, why do you need to call <code>input()</code> both BEFORE the loop and INSIDE the loop?</p>
+<p>A) You don&#39;t &#226;€” calling it once inside the loop is enough B) The first call &quot;primes&quot; the loop so the condition can be checked before the first pass; the second call updates the value on each subsequent pass C) Python requires every loop to call input() twice D) It&#39;s only needed if the user might type letters instead of numbers</p>
+<hr />
+<p><strong>Q5.</strong> What does this print?</p>
+<pre><code class="language-python">n = 10
+while n &lt; 5:
+    print(n)
+print(&quot;done&quot;)</code></pre>
+<p>A) <code>10</code> then <code>done</code> B) Just <code>done</code> C) Infinite loop D) Nothing prints at all</p>
+<hr />
+<p><strong>Q6.</strong> Which of these correctly prints the numbers 5 down to 1?</p>
+<p>A)</p>
+<pre><code class="language-python">n = 5
+while n &gt; 0:
+    print(n)
+    n += 1</code></pre>
+<p>B)</p>
+<pre><code class="language-python">n = 5
+while n &gt; 0:
+    print(n)
+    n -= 1</code></pre>
+<p>C)</p>
+<pre><code class="language-python">n = 0
+while n &lt; 5:
+    print(n)
+    n -= 1</code></pre>
+<p>D)</p>
+<pre><code class="language-python">n = 5
+while n &gt;= 0:
+    print(n)</code></pre>
+<hr />
+<p><strong>Q7.</strong> What are the three essential parts of a counting <code>while</code> loop?</p>
+<p>A) Print, compare, repeat B) Initialize, test, update C) Open, run, close D) Declare, assign, return</p>
+<hr />
+<p><strong>Q8.</strong> What does this loop print?</p>
+<pre><code class="language-python">total = 0
+n = 1
+while n &lt;= 4:
+    total += n
+    n += 1
+print(total)</code></pre>
+<p>A) 4 B) 10 C) 6 D) 0</p>
+<hr />
+<p><strong>Q9.</strong> True or False: A <code>while</code> loop&#39;s condition is checked AFTER the loop body runs each time, not before.</p>
+<p>A) True B) False &#226;€” the condition is checked BEFORE each pass, including the very first one</p>
+<hr />
+<p><strong>Q10.</strong> What&#39;s the safest way to stop an infinite loop you accidentally wrote while experimenting in Jupyter?</p>
+<p>A) Close the browser tab B) Wait for it to finish on its own C) Use the Stop button (&#226;–&#160;) or Kernel &#226;†’ Interrupt D) Restart your computer</p>
+<hr />
+<hr />
+<hr />
+      </div>
+    </article>
+  </main>
+  <footer class="reader-footer">
+    <p>Introduction to Programming Using Python</p>
+    <a href="https://github.com/peter-adepoju/Intro-to-Python-Course" target="_blank" rel="noreferrer">Source repository</a>
+  </footer>
+</body>
+</html>

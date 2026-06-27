@@ -4,7 +4,7 @@
 # Chapter 3: Strings and Sequence Thinking
 ---
 
-## 3.1 What Is a String?
+## 3.1 What Is a String? 
 
 A **string** (`str`) is a sequence of characters. Characters can be letters,
 digits, spaces, punctuation, or symbols. In Python, strings are written between

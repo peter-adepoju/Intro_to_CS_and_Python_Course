@@ -96,6 +96,3 @@ C) `20 + 3 * 2`
 D) `(2 + 3) * 5`
 
 ---
----
-
-*Next: open `02_NOTEBOOKS/week_01/day02_variables_expressions.ipynb`*

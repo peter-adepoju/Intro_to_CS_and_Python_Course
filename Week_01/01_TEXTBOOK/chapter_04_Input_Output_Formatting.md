@@ -1,3 +1,7 @@
+# Day 2
+
+---
+
 # Chapter 4: Input, Output, and Formatting
 ---
 

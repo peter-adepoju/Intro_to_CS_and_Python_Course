@@ -138,12 +138,12 @@ If you see that output, Jupyter is working correctly.
 ## Step 4 — Open the Course Notebooks
 
 The course notebooks live in `02_NOTEBOOKS/`. To open them:
-1. In Jupyter's file browser, navigate to `02_NOTEBOOKS/week_01/`.
+1. In Jupyter's file browser, navigate to `02_NOTEBOOKS/`.
 2. Click `day01_types_variables.ipynb` to open Day 1's notebook.
 
 You can also open notebooks from the terminal:
 ```bash
-jupyter notebook "Intro-to-Python-Course/week_01/02_NOTEBOOKS/day01_types_variables.ipynb"
+jupyter notebook "Intro-to-Python-Course/Week_01/02_NOTEBOOKS/day01_types_variables.ipynb"
 ```
 
 ---

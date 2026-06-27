@@ -1,4 +1,4 @@
-﻿# ðŸ§  Quiz â€” Day 6
+﻿# Quiz - Day 6
 ## `while` Loops â€” Indefinite Iteration
 
 ---

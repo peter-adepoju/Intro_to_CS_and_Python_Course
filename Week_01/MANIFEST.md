@@ -1,7 +1,5 @@
 # CS_Python_Semester — Course Package Manifest
-## Introduction to Computer Science and Programming Using Python
-### Based on MIT 6.100L · Rebuilt as a Full, Deeply Guided Semester Course
-
+## Introduction to Programming Using Python
 ---
 
 ## How to Use This Package

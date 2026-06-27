@@ -15,7 +15,6 @@ This is the fourth week of a 14-week course. Week 4 develops recursive thinking,
 
 ~~~text
 CS_Python_Semester/
-|-- MANIFEST.md                          <- Full course index
 |-- README.md                            <- This file
 |-- 00_SCHEDULE/
 |   |-- __init__.py
@@ -46,13 +45,6 @@ CS_Python_Semester/
 |   |   |-- quiz_day19.md
 |   |   |-- quiz_day20.md
 |   |   |-- quiz_solutions.md
-|   |-- INSTRUCTOR_ANSWER_KEYS/          <- Instructor-only answer files
-|   |   |-- day16_practice_solutions.py
-|   |   |-- day17_practice_solutions.py
-|   |   |-- day18_practice_solutions.py
-|   |   |-- day19_practice_solutions.py
-|   |   |-- day20_practice_solutions.py
-|   |   |-- weekend_assignment_04_solutions.py
 |   '-- weekend_assignment_04.md
 |-- 05_MINI_PROJECTS/                    <- No mini-project this week. Weekend work consists of the Week 4 weekend assignment.
 |   |-- README.md

@@ -1,4 +1,4 @@
-﻿# ðŸ§  Quiz â€” Day 8
+﻿# Quiz - Day 8
 ## Nested Loops and Iterating Over Strings
 
 ---
@@ -128,7 +128,3 @@ B) Use distinct names for each level (e.g., `i`/`j`, or `row`/`col`)
 C) Variable names don't matter in Python
 D) Use only single-letter names from the end of the alphabet
 
----
----
-
----

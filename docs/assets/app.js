@@ -48,8 +48,6 @@ const weeks = [
     title: "Foundations",
     status: "Available",
     question: "How do small Python programs store values, process text, and make decisions?",
-    summary: "Computation, types, variables, expressions, strings, input/output, formatting, and branching.",
-    objectives: ["Evaluate expressions and assign variables.", "Use strings, input, and formatted output.", "Write branching programs with if, elif, and else."],
     days: [
       [1, "Types and variables", "day01_types_variables.ipynb"],
       [2, "Variables and expressions", "day02_variables_expressions.ipynb"],
@@ -66,8 +64,6 @@ const weeks = [
     title: "Iteration",
     status: "Available",
     question: "How can a program repeat work without repeating code by hand?",
-    summary: "while loops, for loops, range(), nested loops, approximation, brute-force search, and loop patterns.",
-    objectives: ["Trace loop state by hand.", "Use while loops and for loops appropriately.", "Recognize loop patterns and common mistakes."],
     days: [
       [6, "while loops", "day06_while_loops.ipynb"],
       [7, "for loops and range()", "day07_for_range.ipynb"],
@@ -84,8 +80,6 @@ const weeks = [
     title: "Functions",
     status: "Available",
     question: "How do we package logic into named, reusable pieces?",
-    summary: "Function definitions, parameters, arguments, return values, scope, specifications, docstrings, and decomposition.",
-    objectives: ["Write reusable functions.", "Use parameters and return values clearly.", "Break larger programs into smaller pieces."],
     days: [
       [11, "Defining functions", "day11_defining_functions.ipynb"],
       [12, "Parameters and arguments", "day12_parameters.ipynb"],
@@ -102,8 +96,6 @@ const weeks = [
     title: "Recursion",
     status: "Available",
     question: "When can a function solve a problem by calling itself on a smaller problem?",
-    summary: "Recursive thinking, base cases, termination, call stacks, classic recursive problems, and mutual recursion.",
-    objectives: ["Identify base and recursive cases.", "Trace recursive calls through the call stack.", "Compare recursion with iteration."],
     days: [
       [16, "Recursive thinking", "day16_recursive_thinking.ipynb"],
       [17, "Base cases and termination", "day17_base_cases.ipynb"],
@@ -120,8 +112,6 @@ const weeks = [
     title: "Tuples and Lists",
     status: "Available",
     question: "How do programs store, mutate, and process ordered collections?",
-    summary: "Tuples, lists, sequence operations, list methods, mutation, aliasing, cloning, nested lists, and list-processing functions.",
-    objectives: ["Use tuples and lists for ordered data.", "Explain mutation, aliasing, and cloning.", "Process nested and function-based list workflows."],
     days: [
       [21, "Tuples", "day21_tuples.ipynb"],
       [22, "Lists: introduction and operations", "day22_lists_intro.ipynb"],
@@ -138,8 +128,6 @@ const weeks = [
     title: "Dictionaries",
     status: "Planned",
     question: "How do we model lookup data with keys and values?",
-    summary: "Keys, values, nested data, mutation, and comprehensions.",
-    objectives: ["Model lookup data with dictionaries.", "Work with nested data.", "Use simple comprehensions."],
     days: [[26, "Dictionaries"], [27, "Dictionary methods"], [28, "Nested dictionaries"], [29, "Mutable vs immutable"], [30, "Comprehensions"]],
     keywords: "dictionaries mutation nested dicts comprehensions"
   },
@@ -149,8 +137,6 @@ const weeks = [
     title: "Testing and Debugging",
     status: "Planned",
     question: "How do we find, explain, and prevent mistakes in programs?",
-    summary: "Exceptions, assertions, tests, debugging strategy, and code quality.",
-    objectives: ["Read tracebacks calmly.", "Use assertions and small tests.", "Debug by isolating one cause at a time."],
     days: [[31, "Error types"], [32, "try and except"], [33, "Assertions and tests"], [34, "Debugging strategies"], [35, "Code quality"]],
     keywords: "testing debugging errors exceptions assertions code quality"
   },
@@ -160,8 +146,6 @@ const weeks = [
     title: "Midterm Review",
     status: "Planned",
     question: "Can you combine Weeks 1-7 in mixed programming problems?",
-    summary: "A structured review of Weeks 1-7, followed by the midterm exam and debrief.",
-    objectives: ["Review core syntax.", "Practice mixed problems.", "Reflect on exam feedback."],
     days: [[36, "Review Weeks 1-3"], [37, "Review Weeks 4-6"], [38, "Review Week 7"], [39, "Midterm exam"], [40, "Debrief"]],
     keywords: "midterm exam review"
   },
@@ -171,8 +155,6 @@ const weeks = [
     title: "Object-Oriented Programming I",
     status: "Planned",
     question: "How do classes bundle data and behavior?",
-    summary: "Classes, attributes, methods, self, and basic encapsulation.",
-    objectives: ["Create small classes.", "Use __init__ and self.", "Group behavior with data."],
     days: [[41, "What is OOP?"], [42, "Classes and __init__"], [43, "Methods and self"], [44, "Encapsulation"], [45, "Practice"]],
     keywords: "oop classes init methods self encapsulation"
   },
@@ -182,8 +164,6 @@ const weeks = [
     title: "Object-Oriented Programming II",
     status: "Planned",
     question: "How do object systems share and specialize behavior?",
-    summary: "Inheritance, super, polymorphism, and class design.",
-    objectives: ["Explain inheritance tradeoffs.", "Use super in small examples.", "Design simple class relationships."],
     days: [[46, "Inheritance"], [47, "super"], [48, "Polymorphism"], [49, "Class design"], [50, "OOP project"]],
     keywords: "inheritance super polymorphism class design project"
   },
@@ -193,8 +173,6 @@ const weeks = [
     title: "Algorithmic Complexity",
     status: "Planned",
     question: "How do we reason about how runtime grows?",
-    summary: "Big-O notation, runtime classes, and simple algorithm analysis.",
-    objectives: ["Explain why runtime grows.", "Compare common Big-O classes.", "Analyze simple loops."],
     days: [[51, "Why complexity?"], [52, "Big-O"], [53, "Best, average, worst"], [54, "Common classes"], [55, "Analysis practice"]],
     keywords: "complexity big-o analysis runtime"
   },
@@ -204,8 +182,6 @@ const weeks = [
     title: "Searching and Sorting",
     status: "Planned",
     question: "How do common algorithms search and order data?",
-    summary: "Linear search, binary search, bubble sort, merge sort, and quick sort.",
-    objectives: ["Implement core search algorithms.", "Compare sorting strategies.", "Trace algorithm state."],
     days: [[56, "Linear search"], [57, "Binary search"], [58, "Bubble sort"], [59, "Merge sort"], [60, "Quick sort"]],
     keywords: "searching sorting linear binary bubble merge quick"
   },
@@ -215,8 +191,6 @@ const weeks = [
     title: "Data and Modules",
     status: "Planned",
     question: "How do programs work with files, modules, and data?",
-    summary: "Imports, file I/O, parsing, data analysis, and visualization foundations.",
-    objectives: ["Read and write files.", "Organize code into modules.", "Parse and summarize simple datasets."],
     days: [[61, "Modules and import"], [62, "File I/O"], [63, "String parsing"], [64, "Data analysis"], [65, "Visualization intro"]],
     keywords: "modules file io parsing data analysis visualization"
   },
@@ -226,8 +200,6 @@ const weeks = [
     title: "Capstone",
     status: "Planned",
     question: "Can you design, build, and explain a complete Python project?",
-    summary: "Final project work, presentation, final exam, and course synthesis.",
-    objectives: ["Plan and complete a small project.", "Explain design decisions.", "Synthesize the semester's core ideas."],
     days: [[66, "Final project"], [67, "Final project"], [68, "Final project"], [69, "Final exam"], [70, "Course synthesis"]],
     keywords: "capstone final project exam synthesis"
   }
